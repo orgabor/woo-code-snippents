@@ -5,9 +5,9 @@ function turnPaymentOff($available_gateways)
 {
     /* Turn on if you do not want to see it if you are admin
     if (is_admin()) {
-        return $available_gateways;
+    return $available_gateways;
     }
-    */
+     */
     // STEP 1: Get order/cart total without shipping costs
     if (is_wc_endpoint_url('order-pay')) {
         // Vertrauen ist gut, kontrollen ist besser
